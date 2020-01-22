@@ -1,0 +1,95 @@
+/*
+ Theme Name:   Divi Child Theme
+ Theme URI:    https://malt.fr/profile/amaurylopin
+ Description:  Thème personnalisé de Divi
+ Author:       Amaury Lopin
+ Author URI:   https://www.malt.fr/profile/amaurylopin
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  Divi
+*/
+/* make the form container relative for positioning */
+ 
+body #gform_wrapper_1 {
+    position: relative;
+	
+}
+ 
+/* resize and position the form footer with the button */
+ 
+body #gform_wrapper_1 .gform_footer {
+    width: auto;
+    position: absolute;
+    top: 42%;
+    left: 80%;
+    padding: 0;
+    margin: 0;
+	font-size: 16px;
+	height : 40px;
+}
+body .gform_wrapper .gform_footer input.button,
+body .gform_wrapper .gform_footer input[type=submit] {
+	background-color: #1895c1;
+	color : #ffffff;
+	border : 0;
+	 border-radius: 5px;
+	height : 40px;
+	margin-top : 2%
+}
+.ginput_container {
+	width : 160%
+}
+#logo {
+    max-height: 70%;
+}
+.gform_wrapper textarea.medium {
+	width : 70% !important;
+}
+#gform_submit_button_2 {
+	background-color : #6f6f6f !important;
+	border-color : #fff !important;
+	border : 2px solid !important;
+	border-radius : 10px;
+	width : 50%;
+	font-size : 16px;
+	font-family: 'VAGRounded Lt Regular',Helvetica,Arial,Lucida,sans-serif;
+}
+
+#top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-item>a, .et_color_scheme_red #top-menu li.current-menu-ancestor>a, .et_color_scheme_red #top-menu li.current-menu-item>a, .et_color_scheme_pink #top-menu li.current-menu-ancestor>a, .et_color_scheme_pink #top-menu li.current-menu-item>a, .et_color_scheme_orange #top-menu li.current-menu-ancestor>a, .et_color_scheme_orange #top-menu li.current-menu-item>a, .et_color_scheme_green #top-menu li.current-menu-ancestor>a, .et_color_scheme_green #top-menu li.current-menu-item>a {
+	text-decoration : underline;
+}
+h4.title {
+	color : #ffffff !important;
+} 
+
+
+
+/* Bouton CTA sur le menu */
+
+.connexion_cta {
+background-color: #ffffff;
+color: #1a95c2 !important;
+padding: 0 !important;
+	border : solid 1px;
+	border-radius : 10px;
+}
+
+.connexion_cta a {
+color: #1a95c2 !important;
+padding: 15px 15px 15px 15px !important;
+}
+.inscription_cta {
+	background-color: #1a95c2;
+	color: #ffffff;
+	padding: 0 !important;
+	border : solid 1px;
+	border-radius : 10px;
+	margin-left: 10px;
+}
+
+.inscription_cta a {
+color: #ffffff !important;
+padding: 15px 15px 15px 15px !important;
+}

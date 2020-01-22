@@ -1,0 +1,204 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Addon Gravity Forms Address Autocomplete</title>
+	
+	<meta name="description" content="
+Gravity Forms Address Autocomplete is a WordPress addon that allow customers to enable google places address autocomplete on two text fields types (Address or Single Line Text) by using its name.
+This addon will help you to create your form and add your autocomplete fields, then Google places api will fetch the places.
+">
+	<meta name="author" content="WPEXPERTS">
+	<meta name="copyright" content="WPEXPERTS">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-05-16T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-addon-gravity-forms-address-autocomplete">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#addon_features" title="Addon Features">Addon Features</a></li>
+			<li><a href="#add_google_api_key_settings" title="Add Google API key settings">Add Google API key settings</a></li>
+			<li><a href="#add_gravity_form_single_line_text_field" title="Add Gravity Form Single Line Text field.">Add Gravity Form Single Line Text field.</a></li>
+			<li><a href="#add_gravity_form_address_text_field" title="Add Gravity Form Address Text field.">Add Gravity Form Address Text field.</a></li>
+			<li><a href="#form_preview_in_front_end" title="Form preview in front end">Form preview in front end</a></li>
+			<li><a href="#requirements" title="Requirements">Requirements</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright WPEXPERTS 2018<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Addon Gravity Forms Address Autocomplete</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 03/10/2011</li>
+	<li>latest update: 05/16/2018</li>
+	<li>by: WPEXPERTS</li>
+	
+	<li>email: <a href="mailto:S&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#119;&#112;&#101;&#120;&#112;&#101;&#114;&#116;&#115;&#46;&#105;&#111;">S&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#119;&#112;&#101;&#120;&#112;&#101;&#114;&#116;&#115;&#46;&#105;&#111;</a></li>
+	</ul>
+	<p>Gravity Forms Address Autocomplete is a WordPress addon that allow customers to enable google places address autocomplete on two text fields types (Address or Single Line Text) by using its name.</p>
+	</section>
+	
+	<section id="addon_features">
+	<div class="page-header"><h3>Addon Features</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: circle; font-size: 10pt; font-family: Calibri; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: -13.5pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:5pt;margin-bottom:0pt;">
+			<span id="docs-internal-guid-79aa10c2-6943-fe9b-0924-79fd406905a0"><span style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Using addon you will have an option to use two fields in your form for autocomplete (Address - Single Line Text)</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 11pt; font-family: Calibri; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: -13.5pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-79aa10c2-6943-fe9b-0924-79fd406905a0"><span style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Using address field autocomplete will autofill all other address fields (Zip code, city, country etc&hellip;) automatically. </span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: circle; font-size: 10pt; font-family: Calibri; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: -13.5pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:14pt;text-align: justify;">
+			<span id="docs-internal-guid-79aa10c2-6943-fe9b-0924-79fd406905a0"><span style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Adding Google API key recommended to allow sending many requests to Google.</span></span></p>
+	</li>
+</ul>
+</section>
+<section id="add_google_api_key_settings">
+	<div class="page-header"><h3>Add Google API key settings</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: square; font-size: 10pt; font-family: Calibri; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: 18pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-d27f3368-6944-4ed7-dda7-7a5bef18246f"><span style="font-size: 11pt; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Select Forms then GF Autocomplete settings, recommended to add this settings if their will be many API requests.</span></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;text-align: justify;">
+	<span id="docs-internal-guid-d27f3368-6944-4ed7-dda7-7a5bef18246f"><span style="font-size: 11pt; font-family: Calibri; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img height="332" src="assets/images/google-api.PNG" style="border: 2pt solid #d9d9d9; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" width="574"></span></span></p>
+<p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	&nbsp;</p>
+</section>
+<section id="add_gravity_form_single_line_text_field">
+	<div class="page-header"><h3>Add Gravity Form Single Line Text field.</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: square; font-size: 11pt; font-family: &quot;Noto Sans Symbols&quot;; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: 18pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-52bd9c42-6944-8c4b-0615-31e86dfbf3b8"><span style="font-size: 11pt; font-family: Calibri; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Add Single Line Text.</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: square; font-size: 11pt; font-family: Calibri; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: 18pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-52bd9c42-6944-8c4b-0615-31e86dfbf3b8"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Select checkbox &ldquo;Enable Autocomplete Suggest with Google Places API&rdquo;.</span></span></p>
+	</li>
+</ul>
+<p>
+	<br>
+	&nbsp;</p>
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-52bd9c42-6944-8c4b-0615-31e86dfbf3b8"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img height="527" src="assets/images/Single-Line.PNG" style="border: 2pt solid #d9d9d9; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" width="624"></span></span></p>
+<p>
+	<br>
+	<br>
+	&nbsp;</p>
+</section>
+<section id="add_gravity_form_address_text_field">
+	<div class="page-header"><h3>Add Gravity Form Address Text field.</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: square; font-size: 11pt; font-family: &quot;Noto Sans Symbols&quot;; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: 18pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-c46e526d-6944-b548-736d-6896492d2edc"><span style="font-size: 11pt; font-family: Calibri; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Add Address text field</span></span></p>
+	</li>
+	<li dir="ltr" style="list-style-type: square; font-size: 11pt; font-family: Calibri; color: rgb(51, 51, 51); font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: 18pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;text-align: justify;">
+			<span id="docs-internal-guid-c46e526d-6944-b548-736d-6896492d2edc"><span style="font-size: 11pt; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Select checkbox &ldquo;Enable Autocomplete Suggest with Google Places API&rdquo;.</span></span></p>
+	</li>
+</ul>
+<p dir="ltr" style="line-height:1.2;margin-top:0pt;margin-bottom:0pt;margin-left: 36pt;text-align: justify;">
+	<span id="docs-internal-guid-c46e526d-6944-b548-736d-6896492d2edc"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img height="621" src="assets/images/auto-gf-complet.PNG" style="border: 2pt solid #d9d9d9; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" width="624"></span></span></p>
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;">
+	<span id="docs-internal-guid-c46e526d-6944-b548-736d-6896492d2edc"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></p>
+<p>
+	<br>
+	<br>
+	&nbsp;</p>
+</section>
+<section id="form_preview_in_front_end">
+	<div class="page-header"><h3>Form preview in front end</h3><hr class="notop"></div>
+<p>
+	<span id="docs-internal-guid-edcf2340-6945-0335-f868-84f0cf67e052"><span style="font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"><img height="672" src="assets/images/auto-gf-comple.PNG" style="border: 2pt solid #d9d9d9; transform: rotate(0.00rad); -webkit-transform: rotate(0.00rad);" width="624"></span></span></p>
+</section>
+<section id="requirements">
+	<div class="page-header"><h3>Requirements</h3><hr class="notop"></div>
+<ul style="margin-top:0pt;margin-bottom:0pt;">
+	<li dir="ltr" style="list-style-type: circle; font-size: 10pt; font-family: Calibri; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre; margin-left: -13.5pt;">
+		<p dir="ltr" style="line-height:1.2;margin-top:5pt;margin-bottom:14pt;text-align: justify;">
+			<span id="docs-internal-guid-ccfb32f6-6946-5264-2272-429218dd91c8"><span style="font-size: 10.5pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;">Gravity Forms</span><span style="font-size: 11pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;"> Plugin.</span></span></p>
+	</li>
+</ul>
+</section>
+
+	</div>
+</body>
+</html>
